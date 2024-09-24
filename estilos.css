@@ -4,7 +4,7 @@
 }
 
 html, body {
-    height: 100%; /* Asegura que el body ocupe el 100% de la altura */
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -18,9 +18,8 @@ body {
     flex-direction: column;
 }
 
-/* Encabezado */
 header {
-    background-color: #ee9000; /* Color de fondo del encabezado */
+    background-color: #ee9000; 
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -33,7 +32,7 @@ header h1 {
     font-weight: 900;
 }
 
-/* Contenido principal */
+
 main {
     margin: 40px auto;
     padding: 20px;
@@ -42,7 +41,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-    flex-grow: 1; /* Permite que el contenido crezca y ocupe el espacio disponible */
+    flex-grow: 1; 
 }
 
 main form {
@@ -52,7 +51,7 @@ main form {
 main label {
     display: block;
     font-size: 1.2em;
-    color: #000000; /* Color del texto de las etiquetas */
+    color: #000000; 
     margin-bottom: 10px;
 }
 
@@ -67,7 +66,7 @@ main input[type="text"] {
 }
 
 main button {
-    background-color: #0051ee; /* Color de fondo del botón */
+    background-color: #0051ee;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -78,8 +77,7 @@ main button {
 }
 
 main button:hover {
-    background-color: #e63900; /* Color de fondo del botón en hover */
-}
+    background-color: #e63900; 
 
 #resultado, #resultadoMateria {
     margin-top: 20px;
@@ -92,10 +90,10 @@ main button:hover {
 }
 
 #resultado p strong, #resultadoMateria p strong {
-    color: #4d4fda; /* Color de texto de elementos importantes */
+    color: #4d4fda; 
 }
 
-/* Página de inicio */
+/* Pagina de inicio */
 main ul {
     list-style-type: none;
     padding: 0;
@@ -107,38 +105,37 @@ main ul li {
 
 main ul li a {
     text-decoration: none;
-    background-color: #0051ee; /* Color de fondo de los enlaces */
+    background-color: #0051ee; 
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block;
-    transition: background-color 0.3s ease; /* Transición suave */
+    transition: background-color 0.3s ease; 
 }
 
 main ul li a:hover {
-    background-color: #e63900; /* Color de fondo en hover para enlaces */
+    background-color: #e63900; 
 }
 
 /* Pie de página */
 footer {
-    background-color: #000000; /* Color de fondo del pie de página */
+    background-color: #000000; 
     color: white;
     text-align: center;
     padding: 10px;
     width: 100%;
-    position: relative; /* Cambiar a relative en lugar de fixed */
+    position: relative; 
 }
 
-/* Estilos para el encabezado con imágenes */
+/* Estilos para el encabezado con imagenes */
 .header-content {
-    display: flex; /* Utiliza flexbox para organizar las imágenes y el texto */
-    justify-content: space-between; /* Espacio entre las imágenes y el texto */
-    align-items: center; /* Alinea verticalmente al centro */
-    margin-top: 1px; /* Espaciado superior */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 1px; 
 }
 
 .images {
-    flex: 1; /* Permite que las imágenes ocupen el espacio necesario */
     text-align: center; /* Centra las imágenes dentro de su contenedor */
 }
 

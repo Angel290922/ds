@@ -123,11 +123,11 @@ footer {
     display: flex; /* Utiliza flexbox para organizar las imágenes y el texto */
     justify-content: space-between; /* Espacio entre las imágenes y el texto */
     align-items: center; /* Alinea verticalmente al centro */
-    margin-top: 20px; /* Espaciado superior */
+    margin-top: 5px; /* Espaciado superior */
 }
 
 .imagen-izquierda, .imagen-derecha {
-    width: 45%; /* Ajusta el ancho de las imágenes al 45% del contenedor */
+    width: 5%; /* Ajusta el ancho de las imágenes al 45% del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
 }
 

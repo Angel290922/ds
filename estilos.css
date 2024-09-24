@@ -10,7 +10,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #0300af; /* Cambiado */
+    background-color: #0300af; /* Color de fondo del encabezado */
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -41,7 +41,7 @@ main form {
 main label {
     display: block;
     font-size: 1.2em;
-    color: #0300af; /* Cambiado */
+    color: #0300af; /* Color del texto de las etiquetas */
     margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@ main input[type="text"] {
 }
 
 main button {
-    background-color: #ff3e00; /* Cambiado */
+    background-color: #ff3e00; /* Color de fondo del botón */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -67,7 +67,7 @@ main button {
 }
 
 main button:hover {
-    background-color: #e63900; /* Ligera variación para hover */
+    background-color: #e63900; /* Color de fondo del botón en hover */
 }
 
 #resultado, #resultadoMateria {
@@ -81,7 +81,7 @@ main button:hover {
 }
 
 #resultado p strong, #resultadoMateria p strong {
-    color: #0300af; /* Cambiado */
+    color: #0300af; /* Color de texto de elementos importantes */
 }
 
 /* Página de inicio */
@@ -96,7 +96,7 @@ main ul li {
 
 main ul li a {
     text-decoration: none;
-    background-color: #ff3e00; /* Cambiado */
+    background-color: #ff3e00; /* Color de fondo de los enlaces */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -105,12 +105,12 @@ main ul li a {
 }
 
 main ul li a:hover {
-    background-color: #e63900; /* Cambiado */
+    background-color: #e63900; /* Color de fondo en hover para enlaces */
 }
 
 /* Pie de página */
 footer {
-    background-color: #000000; /* Cambiado */
+    background-color: #000000; /* Color de fondo del pie de página */
     color: white;
     text-align: center;
     padding: 10px;

@@ -1,11 +1,21 @@
 /* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Asegura que el body ocupe el 100% de la altura */
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f0f2f5;
-    margin: 0;
-    padding: 0;
     color: #000000;
     line-height: 1.6;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Encabezado */
@@ -32,6 +42,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
+    flex-grow: 1; /* Permite que el contenido crezca y ocupe el espacio disponible */
 }
 
 main form {
@@ -101,7 +112,7 @@ main ul li a {
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; /* Transición suave */
 }
 
 main ul li a:hover {
@@ -114,9 +125,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
     width: 100%;
-    bottom: 0;
+    position: relative; /* Cambiar a relative en lugar de fixed */
 }
 
 /* Estilos para el encabezado con imágenes */
@@ -135,6 +145,7 @@ footer {
 .header-image {
     max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto; /* Mantiene la relación de aspecto */
+    max-width: 500px; /* Limita el tamaño máximo en pantallas grandes */
 }
 
 .text-container {
@@ -146,22 +157,29 @@ footer {
 @media (max-width: 768px) {
     main {
         margin: 20px 10px;
+        padding: 15px; /* Reducir el padding para dar más espacio útil */
     }
 
     main input[type="text"] {
-        width: 90%;
+        width: 100%; /* Extender el campo de texto al 100% */
     }
 
     main button {
-        width: 100%;
+        width: 100%; /* Extender el botón al 100% */
+        padding: 15px; /* Hacer que el botón sea más grande en pantallas táctiles */
     }
 
     .header-content {
         flex-direction: column; /* Cambia a columna en pantallas más pequeñas */
-        align-items: center; /* Centra los elementos */
+        align-items: center;
+        text-align: center; /* Centrar el texto y las imágenes */
     }
 
     .images {
-        margin-bottom: 10px; /* Agrega margen inferior para las imágenes */
+        margin-bottom: 10px;
+    }
+
+    header h1 {
+        font-size: 2em; /* Ajustar el tamaño del encabezado */
     }
 }

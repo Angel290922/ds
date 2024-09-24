@@ -4,13 +4,13 @@ body {
     background-color: #f0f2f5;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #000000;
     line-height: 1.6;
 }
 
 /* Encabezado */
 header {
-    background-color: #0300af; /* Color de fondo del encabezado */
+    background-color: #ee9000; /* Color de fondo del encabezado */
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -20,7 +20,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 /* Contenido principal */
@@ -41,7 +41,7 @@ main form {
 main label {
     display: block;
     font-size: 1.2em;
-    color: #0300af; /* Color del texto de las etiquetas */
+    color: #000000; /* Color del texto de las etiquetas */
     margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@ main input[type="text"] {
 }
 
 main button {
-    background-color: #ff3e00; /* Color de fondo del botón */
+    background-color: #0051ee; /* Color de fondo del botón */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -81,7 +81,7 @@ main button:hover {
 }
 
 #resultado p strong, #resultadoMateria p strong {
-    color: #0300af; /* Color de texto de elementos importantes */
+    color: #4d4fda; /* Color de texto de elementos importantes */
 }
 
 /* Página de inicio */
@@ -96,7 +96,7 @@ main ul li {
 
 main ul li a {
     text-decoration: none;
-    background-color: #ff3e00; /* Color de fondo de los enlaces */
+    background-color: #0051ee; /* Color de fondo de los enlaces */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -119,21 +119,27 @@ footer {
     bottom: 0;
 }
 
-.images {
+/* Estilos para el encabezado con imágenes */
+.header-content {
     display: flex; /* Utiliza flexbox para organizar las imágenes y el texto */
     justify-content: space-between; /* Espacio entre las imágenes y el texto */
     align-items: center; /* Alinea verticalmente al centro */
     margin-top: 1px; /* Espaciado superior */
 }
 
-.imagen-izquierda, .imagen-derecha {
-    width: -8%; /* Ajusta el ancho de las imágenes al 45% del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+.images {
+    flex: 1; /* Permite que las imágenes ocupen el espacio necesario */
+    text-align: center; /* Centra las imágenes dentro de su contenedor */
 }
 
-.texto-instituto {
+.header-image {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+.text-container {
+    flex: 8; /* Ocupa más espacio en el centro */
     text-align: center; /* Centra el texto */
-    width: 10%; /* Ajusta el ancho del texto según sea necesario */
 }
 
 /* Estilo responsivo */
@@ -148,5 +154,14 @@ footer {
 
     main button {
         width: 100%;
+    }
+
+    .header-content {
+        flex-direction: column; /* Cambia a columna en pantallas más pequeñas */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .images {
+        margin-bottom: 10px; /* Agrega margen inferior para las imágenes */
     }
 }

@@ -10,7 +10,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #ee9000; /* Color de fondo del encabezado */
+    background-color: #ee9000;
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -41,7 +41,7 @@ main form {
 main label {
     display: block;
     font-size: 1.2em;
-    color: #000000; /* Color del texto de las etiquetas */
+    color: #000000; 
     margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@ main input[type="text"] {
 }
 
 main button {
-    background-color: #0051ee; /* Color de fondo del botón */
+    background-color: #0051ee; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -67,7 +67,7 @@ main button {
 }
 
 main button:hover {
-    background-color: #e63900; /* Color de fondo del botón en hover */
+    background-color: #e63900; 
 }
 
 #resultado, #resultadoMateria {
@@ -81,7 +81,7 @@ main button:hover {
 }
 
 #resultado p strong, #resultadoMateria p strong {
-    color: #4d4fda; /* Color de texto de elementos importantes */
+    color: #4d4fda; 
 }
 
 /* Página de inicio */
@@ -96,7 +96,7 @@ main ul li {
 
 main ul li a {
     text-decoration: none;
-    background-color: #0051ee; /* Color de fondo de los enlaces */
+    background-color: #0051ee; 
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -105,12 +105,12 @@ main ul li a {
 }
 
 main ul li a:hover {
-    background-color: #e63900; /* Color de fondo en hover para enlaces */
+    background-color: #e63900; 
 }
 
 /* Pie de página */
 footer {
-    background-color: #000000; /* Color de fondo del pie de página */
+    background-color: #000000; 
     color: white;
     text-align: center;
     padding: 10px;
@@ -119,27 +119,27 @@ footer {
     bottom: 0;
 }
 
-/* Estilos para el encabezado con imágenes */
+
 .header-content {
-    display: flex; /* Utiliza flexbox para organizar las imágenes y el texto */
-    justify-content: space-between; /* Espacio entre las imágenes y el texto */
-    align-items: center; /* Alinea verticalmente al centro */
-    margin-top: 1px; /* Espaciado superior */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 1px; 
 }
 
 .images {
-    flex: 1; /* Permite que las imágenes ocupen el espacio necesario */
-    text-align: center; /* Centra las imágenes dentro de su contenedor */
+    flex: 1; 
+    text-align: center; 
 }
 
 .header-image {
-    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
-    height: auto; /* Mantiene la relación de aspecto */
+    max-width: 100%;
+    height: auto;
 }
 
 .text-container {
-    flex: 8; /* Ocupa más espacio en el centro */
-    text-align: center; /* Centra el texto */
+    flex: 8; 
+    text-align: center; 
 }
 
 /* Estilo responsivo */
@@ -157,11 +157,11 @@ footer {
     }
 
     .header-content {
-        flex-direction: column; /* Cambia a columna en pantallas más pequeñas */
-        align-items: center; /* Centra los elementos */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .images {
-        margin-bottom: 10px; /* Agrega margen inferior para las imágenes */
+        margin-bottom: 10px; 
     }
 }

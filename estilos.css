@@ -10,7 +10,7 @@ body {
 
 /* Encabezado */
 header {
-    background-color: #4A90E2;
+    background-color: #0300af; /* Cambiado */
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -41,7 +41,7 @@ main form {
 main label {
     display: block;
     font-size: 1.2em;
-    color: #4A90E2;
+    color: #0300af; /* Cambiado */
     margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@ main input[type="text"] {
 }
 
 main button {
-    background-color: #4A90E2;
+    background-color: #ff3e00; /* Cambiado */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -67,7 +67,7 @@ main button {
 }
 
 main button:hover {
-    background-color: #357ABD;
+    background-color: #e63900; /* Ligera variación para hover */
 }
 
 #resultado, #resultadoMateria {
@@ -81,7 +81,7 @@ main button:hover {
 }
 
 #resultado p strong, #resultadoMateria p strong {
-    color: #4A90E2;
+    color: #0300af; /* Cambiado */
 }
 
 /* Página de inicio */
@@ -96,7 +96,7 @@ main ul li {
 
 main ul li a {
     text-decoration: none;
-    background-color: #4A90E2;
+    background-color: #ff3e00; /* Cambiado */
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -105,12 +105,12 @@ main ul li a {
 }
 
 main ul li a:hover {
-    background-color: #357ABD;
+    background-color: #e63900; /* Cambiado */
 }
 
 /* Pie de página */
 footer {
-    background-color: #4A90E2;
+    background-color: #000000; /* Cambiado */
     color: white;
     text-align: center;
     padding: 10px;

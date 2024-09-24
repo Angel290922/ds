@@ -128,18 +128,18 @@ footer {
 }
 
 .images {
-    flex: 1; /* Permite que las imágenes ocupen el espacio necesario */
-    text-align: center; /* Centra las imágenes dentro de su contenedor */
+    flex: 1; 
+    text-align: center; 
 }
 
 .header-image {
-    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
-    height: auto; /* Mantiene la relación de aspecto */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .text-container {
-    flex: 8; /* Ocupa más espacio en el centro */
-    text-align: center; /* Centra el texto */
+    flex: 8; 
+    text-align: center; 
 }
 
 /* Estilo responsivo */

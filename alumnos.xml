@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="alumnos.xsd">
   <alumno>
-    <nombre>Juan Pérez</nombre>
-    <control>A12345</control>
+    <nombre>Luis Gabriel Guillen Mendoza</nombre>
+    <control>21141287</control>
     <edad>21</edad>
     <carrera>Ingeniería en Sistemas</carrera>
-    <semestre>6</semestre>
+    <semestre>7</semestre>
   </alumno>
   <alumno>
-    <nombre>María López</nombre>
-    <control>A12346</control>
-    <edad>22</edad>
-    <carrera>Ingeniería Industrial</carrera>
-    <semestre>8</semestre>
+    <nombre>Jose Euvaldo Zarazua Garcia</nombre>
+    <control>21141286</control>
+    <edad>21</edad>
+    <carrera>Ingeniería en Sistemas</carrera>
+    <semestre>7</semestre>
+  </alumno>
+  <alumno>
+    <nombre>Emilio Jr. Aguas Mendoza</nombre>
+    <control>21141285</control>
+    <edad>21</edad>
+    <carrera>Ingeniería en Sistemas</carrera>
+    <semestre>7</semestre>
+  </alumno>
+  <alumno>
+    <nombre>Angel Vigil Velazquez</nombre>
+    <control>20141459</control>
+    <edad>21</edad>
+    <carrera>Ingeniería en Sistemas</carrera>
+    <semestre>7</semestre>
+  </alumno>
+  <alumno>
+    <nombre>Carla Ortiz Cruz</nombre>
+    <control>22141333</control>
+    <edad>21</edad>
+    <carrera>Ingeniería en Sistemas</carrera>
+    <semestre>4</semestre>
   </alumno>
 </alumnos>
